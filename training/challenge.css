@@ -1,15 +1,13 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+button {
+    padding: 10px 20px;
+    background: #dc455e;
+    color: white;
+    font-weight: bold;border: none;
 }
 
-#box {
-    background: lightseagreen;
-    padding: 40px;
-    width: 200px;
-    text-align: center;
-    margin: 20px auto;
-    color: white;
-    font-weight: bold;
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
