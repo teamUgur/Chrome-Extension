@@ -1,6 +1,4 @@
-containerEl = document.getElementById("container")
-containerEl.innerHTML = "<button onclick='buy()'>Buy</button>" 
-
-function buy() {
-    containerEl.innerHTML += "<p>Thank you for buying</p>"
-}
+const myAge = "18"
+const hisAge = "12"
+console.log(myAge + hisAge)
+console.log(Number(myAge + hisAge))
