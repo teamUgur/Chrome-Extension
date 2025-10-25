@@ -1,8 +1,8 @@
-let myArray = `["www.mylead.com"]`
-myArray = JSON.parse(myArray)
-myArray.push("www.djdh.com")
-myArray = JSON.stringify(myArray)
-console.log(myArray)
-console.log(typeof myArray)
-
+console.log(Boolean(""))
+console.log(Boolean("0"))
+console.log(Boolean(0))
+console.log(Boolean(100))
+console.log(Boolean(null))
+console.log(Boolean([0]))
+console.log(Boolean(-0))
 

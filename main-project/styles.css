@@ -10,20 +10,32 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #5f9341;
+    margin: 0 0 4px 0;
 }
 
-button {
-    margin: 5px 0;
-    padding: 10px 20px;
+#input-btn {
+    padding: 11px 21px;
     border: none;
-    background: #5f9341;;
+    background: #5f9341;
     color: white;
     font-weight: bold;
 }
 
-ul, li, a {
+#delete-btn {
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    background: white;
+    color: #5f9341;
+    font-weight: bold;
+}
+
+ul, a {
     color: #5f9341;
     list-style: none;
     padding: 0;
     margin: 25px 0 0 0;
+}
+
+li {
+    margin: 8px 0;
 }
