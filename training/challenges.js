@@ -1,4 +1,8 @@
-const myAge = "18"
-const hisAge = "12"
-console.log(myAge + hisAge)
-console.log(Number(myAge + hisAge))
+let myArray = `["www.mylead.com"]`
+myArray = JSON.parse(myArray)
+myArray.push("www.djdh.com")
+myArray = JSON.stringify(myArray)
+console.log(myArray)
+console.log(typeof myArray)
+
+
