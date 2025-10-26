@@ -13,12 +13,16 @@ input {
     margin: 0 0 4px 0;
 }
 
-#input-btn {
+button {
+    font-weight: bold;
+}
+
+#input-btn, #tab-btn {
     padding: 11px 21px;
     border: none;
     background: #5f9341;
     color: white;
-    font-weight: bold;
+    
 }
 
 #delete-btn {
@@ -26,7 +30,6 @@ input {
     border: 1px solid #5f9341;
     background: white;
     color: #5f9341;
-    font-weight: bold;
 }
 
 ul, a {
